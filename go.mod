@@ -7,7 +7,7 @@ require (
 	github.com/charmbracelet/bubbles v0.14.0
 	github.com/charmbracelet/bubbletea v0.21.1-0.20220623121936-ca32c4c62873
 	github.com/charmbracelet/glamour v0.5.0
-	github.com/charmbracelet/lipgloss v0.5.1-0.20220407020210-a86f21a0ae43
+	github.com/charmbracelet/lipgloss v0.6.0
 	github.com/charmbracelet/wish v0.5.0
 	github.com/gliderlabs/ssh v0.3.5
 	github.com/muesli/coral v1.0.0
