@@ -3,7 +3,7 @@
 Slides in your terminal.
 
 <p align="center">
-  <img src="./assets/slides.gif?raw=true" alt="Slides Presentation" />
+  <img src="./assets/slides-1.gif?raw=true" alt="Slides Presentation" />
 </p>
 
 ### Installation
@@ -11,7 +11,7 @@ Slides in your terminal.
 [![Snapcraft](https://snapcraft.io/slides/badge.svg)](https://snapcraft.io/slides)
 [![AUR](https://img.shields.io/aur/version/slides?label=AUR)](https://aur.archlinux.org/packages/slides)
 
-<details>
+<details markdown="block">
 <summary>Instructions</summary>
 
 #### MacOS
@@ -142,6 +142,7 @@ Go to the previous slide with any of the following key sequences:
 * <kbd>p</kbd>
 * <kbd>h</kbd>
 * <kbd>k</kbd>
+* <kbd>N</kbd>
 * <kbd>Page Up</kbd>
 * number + any of the above (go back n slides)
 
@@ -271,6 +272,7 @@ own computer without needing to download `slides` and the presentation file.
 * [`lookatme`](https://github.com/d0c-s4vage/lookatme)
 * [`sli.dev`](https://sli.dev/)
 * [`sent`](https://tools.suckless.org/sent/)
+* [`presenterm`](https://github.com/mfontanini/presenterm)
 
 ### Development
 See the [development documentation](./docs/development)

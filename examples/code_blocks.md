@@ -9,6 +9,8 @@ Currently supported languages:
 <!-- Use comments in your markdown! -->
 
 * `bash`
+* `zsh`
+* `fish`
 * `elixir`
 * `go`
 * `javascript`
@@ -17,6 +19,10 @@ Currently supported languages:
 * `perl`
 * `rust`
 * `java`
+* `cpp`
+* `swift`
+* `dart`
+* `v`
 <!-- * `secret` -->
 
 ---
@@ -24,6 +30,22 @@ Currently supported languages:
 ### Bash
 
 ```bash
+ls
+```
+
+---
+
+### Zsh
+
+```zsh
+ls
+```
+
+---
+
+### Fish
+
+```fish
 ls
 ```
 
@@ -115,5 +137,58 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Hello, world!");
     }
+}
+```
+
+---
+
+### Julia
+```julia
+println("Hello, world!")
+```
+
+---
+
+### C++
+```cpp
+#include <iostream>
+
+int main() {
+    std::cout << "Hello, world!" << std::endl;
+    return 0;
+}
+```
+
+---
+
+### Swift
+```swift
+print("Hello, world!")
+```
+
+---
+
+### Dart
+```dart
+void main() {
+  print("Hello, world!");
+}
+```
+
+### V
+
+```v
+println('Hello, world!')
+```
+
+---
+
+### Scala
+
+```scala
+//> using dep com.lihaoyi::pprint:0.8.1
+
+object Main extends App {
+  println("Hello")
 }
 ```
