@@ -52,8 +52,8 @@ parts:
       - go
       
     override-pull: |
-      craftctl pull
-      craftctl set-version "$(git describe --tags | sed 's/^v//' | cut -d "-" -f1)"    
+      craftctl default
+      craftctl set version="$(git describe --tags | sed 's/^v//' | cut -d "-" -f1)" 
 
   homeishome-launch:
     plugin: nil
